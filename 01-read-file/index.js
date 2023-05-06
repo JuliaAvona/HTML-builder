@@ -1,5 +1,5 @@
-const fs = require('fs');
 const path = require('node:path'); 
+const fs = require('fs');
 const text = path.resolve(__dirname + '/text.txt');
 const { stdout } = process;
 
